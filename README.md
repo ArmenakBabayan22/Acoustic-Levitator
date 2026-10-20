@@ -10,6 +10,11 @@ An engineering research and development project focused on the principles of aco
 ## Project Overview
 This project encompasses the design, hardware assembly, and programming of two distinct ultrasonic acoustic levitation systems. It demonstrates the technical progression from a foundational physics experiment to a complex, interactive multi-element phased array driven by a real-time computer vision tracking pipeline.
 
+### System Video Demonstration
+Click the banner below to watch the system presentation, dynamic touchless hand-tracking system response, and multi-object acoustic manipulation:
+
+[![Acoustic Levitator Presentation and Hand Control](https://youtube.com)](https://www.youtube.com/watch?v=mW4TRsjzK9M)
+
 ### System Specifications and Comparison
 
 | Feature | Version 1 (Baseline) | Version 2 (Advanced Phased Array) |
@@ -76,3 +81,7 @@ python main_control.py
 
 ## License
 This project is open-source and distributed under the MIT License.
+
+
+---
+
