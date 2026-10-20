@@ -15,7 +15,7 @@ An engineering research and development project focused on the principles of aco
 ## Project Overview
 This project encompasses the design, hardware assembly, and programming of two distinct ultrasonic acoustic levitation systems. It demonstrates the technical progression from a foundational physics experiment to a complex, interactive multi-element phased array driven by a real-time computer vision tracking pipeline.
 
-### System Video Demonstration
+### System Video Presentation
 Click the banner below to watch the system presentation, dynamic touchless hand-tracking system response, and multi-object acoustic manipulation:
 
 [![Acoustic Levitator Presentation and Hand Control](https://youtube.com)](https://youtube.com)
@@ -61,14 +61,26 @@ An advanced hardware-software complex featuring an array of 64 ultrasonic transd
   * **Serial Communication:** Real-time positioning vectors are streamed asynchronously to the hardware microcontroller over USB using PySerial (`serial`), matching active system ports via auto-discovery protocols.
   * **Data Visualization:** An integrated Matplotlib backend runs concurrently on a dedicated thread (`threading`), generating real-time animated plots of positional telemetry and signal behavior.
 
-### Acoustic Field Simulation and Real-Time Telemetry
-To validate the phased array algorithm and analyze the standing wave nodes before physical deployment, the Python framework includes a custom computational physics backend. 
+---
 
-Using mathematical modeling, the script renders a real-time sound pressure matrix mapping:
+## Version 2 Media Gallery and Simulation
+
+### Multi-Object Acoustic Trapping Proof
+Below is the captured demonstration showing the advanced phased array matrix establishing independent localized nodes to trap and levitate five objects simultaneously in 3D space:
+
+![Five Objects Levitation Demo](Version_2/Photos_and_Videos/v2_five_objects_levitation_demo.jpg)
+
+### Acoustic Field Simulation
+To validate the phased array algorithm and analyze the standing wave nodes before physical deployment, the Python framework includes a custom computational physics backend. Using mathematical modeling, the script renders a real-time sound pressure matrix mapping:
 
 ![Phased Array Acoustic Field Simulation](Version_2/Photos_and_Videos/v2_phased_array_acoustic_field_simulation.png)
 
 *The plot displays the acoustic pressure field layout inside the levitation chamber. Dark horizontal bands represent low-pressure acoustic nodes (trapping points), dynamically shifting along the Z-axis in response to real-time MediaPipe hand tracking coordinates over the serial interface.*
+
+### Video Logs (Available in Repository)
+The following continuous performance logs are documented inside the repository folder and can be launched directly:
+* [Acoustic Field Modulation Log](Version_2/Photos_and_Videos/v2_acoustic_field_modulatio.mp4) — Demonstration of standing wave node behavior and phase-shift field transitions.
+* [Vertical Positioning Control Demonstration](Version_2/Photos_and_Videos/v2_vertical_positioning_control.mp4) — Real-time recording of the levitating particle responding to vertical hand coordinates processed via MediaPipe.
 
 ---
 
