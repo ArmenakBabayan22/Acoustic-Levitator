@@ -5,6 +5,7 @@ An engineering research and development project focused on the principles of aco
 > **Author:** Armenak Babayan  
 > **Purpose:** Academic engineering project developed for the undergraduate admission portfolio.
 
+
 ---
 
 ## Project Overview
@@ -13,7 +14,7 @@ This project encompasses the design, hardware assembly, and programming of two d
 ### System Video Demonstration
 Click the banner below to watch the system presentation, dynamic touchless hand-tracking system response, and multi-object acoustic manipulation:
 
-[![Acoustic Levitator Presentation and Hand Control](https://youtube.com)](https://www.youtube.com/watch?v=mW4TRsjzK9M)
+[![Acoustic Levitator Presentation and Hand Control](https://youtube.com)](https://youtube.com)
 
 ### System Specifications and Comparison
 
@@ -81,7 +82,3 @@ python main_control.py
 
 ## License
 This project is open-source and distributed under the MIT License.
-
-
----
-
