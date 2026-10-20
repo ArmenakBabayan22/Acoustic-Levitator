@@ -5,6 +5,10 @@ An engineering research and development project focused on the principles of aco
 > **Author:** Armenak Babayan  
 > **Purpose:** Academic engineering project developed for the undergraduate admission portfolio.
 
+---
+
+## 🏆 Project Achievements and Awards
+* **Olympiad Winner:** This project was awarded **1st Place / Grand Prix** at the Engineering and Robotics Olympiad, validating its technical novelty, hardware reliability, and software implementation quality before an academic jury.
 
 ---
 
@@ -56,6 +60,15 @@ An advanced hardware-software complex featuring an array of 64 ultrasonic transd
   * **Coordinate Mapping:** The vertical displacement of the tracked hand node is normalized using NumPy (`np`), mapping physical hand coordinates directly to targeted phase-shift steps for the acoustic field.
   * **Serial Communication:** Real-time positioning vectors are streamed asynchronously to the hardware microcontroller over USB using PySerial (`serial`), matching active system ports via auto-discovery protocols.
   * **Data Visualization:** An integrated Matplotlib backend runs concurrently on a dedicated thread (`threading`), generating real-time animated plots of positional telemetry and signal behavior.
+
+### Acoustic Field Simulation and Real-Time Telemetry
+To validate the phased array algorithm and analyze the standing wave nodes before physical deployment, the Python framework includes a custom computational physics backend. 
+
+Using mathematical modeling, the script renders a real-time sound pressure matrix mapping:
+
+![Phased Array Acoustic Field Simulation](Version_2/Photos_and_Videos/v2_phased_array_acoustic_field_simulation.png)
+
+*The plot displays the acoustic pressure field layout inside the levitation chamber. Dark horizontal bands represent low-pressure acoustic nodes (trapping points), dynamically shifting along the Z-axis in response to real-time MediaPipe hand tracking coordinates over the serial interface.*
 
 ---
 
