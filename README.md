@@ -8,14 +8,14 @@ An engineering research and development project focused on the principles of aco
 ---
 
 ## 🏆 Project Achievements and Awards
-* **Olympiad Winner:** This project was awarded **1st Place / Grand Prix** at the Engineering and Robotics Olympiad, validating its technical novelty, hardware reliability, and software implementation quality before an academic jury.
+* **Olympiad Winner:** This project was awarded **1st Place / Grand Prix** at the Engineering Olympiad, validating its technical novelty, hardware reliability, and software implementation quality before an academic jury.
 
 ---
 
 ## Project Overview
 This project encompasses the design, hardware assembly, and programming of two distinct ultrasonic acoustic levitation systems. It demonstrates the technical progression from a foundational physics experiment to a complex, interactive multi-element phased array driven by a real-time computer vision tracking pipeline.
 
-### System Video Presentation
+### System Video Demonstration
 Click the banner below to watch the system presentation, dynamic touchless hand-tracking system response, and multi-object acoustic manipulation:
 
 [![Acoustic Levitator Presentation and Hand Control](https://youtube.com)](https://youtube.com)
@@ -50,6 +50,13 @@ The project assets are organized into dedicated version directories:
 ### Version 1: Dual-Transducer Static Levitator
 A classic acoustic trapping configuration utilizing two 40 kHz ultrasonic transducers positioned coaxially at a precise distance calibrated to a multiple of the acoustic half-wavelength (λ/2).
 * **Physical Principle:** The transducers operate in strict anti-phase alignment, generating a fixed acoustic standing wave. The target micro-objects (e.g., expanded polystyrene particles) are trapped securely at the acoustic pressure nodes where the net acoustic radiation force counters gravity.
+
+#### Version 1 Experimental Proof
+Below is the photo demonstration of successful single-particle entrapment within the nodes of the stable standing wave using the baseline dual-transducer hardware architecture:
+
+![Object Levitating Proof](Version_1/Photos_and_Videos/Object_levitating.jpg)
+
+---
 
 ### Version 2: 64-Channel Phased Array Matrix with Computer Vision Control
 An advanced hardware-software complex featuring an array of 64 ultrasonic transducers split into two opposing 32-element hemispheres. Instead of relying on dedicated hardware sensor modules, this version implements an intelligent Computer Vision (CV) tracking pipeline using a standard camera feed to establish a real-time Human-Machine Interface (HMI).
